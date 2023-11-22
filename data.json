@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Are there any massless particles?",
+    "subject": "Physics",
+    "topic": "particle",
+    "difficulty": "medium",
+    "marks": 20
+  },
+  {
+    "question": "Can gold be created from other elements?",
+    "subject": "Physics",
+    "topic": "particle",
+    "difficulty": "hard",
+    "marks": 50
+  },
+  {
+    "question": "Can radio antennas emit visible light??",
+    "subject": "Physics",
+    "topic": "wave",
+    "difficulty": "easy",
+    "marks": 10
+  },
+  {
+    "question": "Can radio antennas emit visible light??",
+    "subject": "Physics",
+    "topic": "wave",
+    "difficulty": "easy",
+    "marks": 10
+  },
+  {
+    "question": "Can you light diamond on fire?",
+    "subject": "Chemistry",
+    "topic": "thermodynamics",
+    "difficulty": "hard",
+    "marks": 50
+  }
+]
