@@ -8,12 +8,11 @@ router.get("/generate-question-paper", async (req, res) => {
 
   // Parse difficulty distribution from query parameters
   const { easy, medium, hard } = req.query;
-  const distribution = {
-    Easy: (easy || 20) / 100,
-    Medium: (medium || 50) / 100,
-    Hard: (hard || 30) / 100,
+  let distribution = {
+    "Easy": easy ,
+    "Medium": medium ,
+    "Hard": hard ,
   };
-
   try {
     const questionPaper = await generateQuestionPaper(totalMarks, distribution);
     res.json(questionPaper);
